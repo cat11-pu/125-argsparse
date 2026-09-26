@@ -1,0 +1,10 @@
+{
+  "unknown_error_code": "E_UNKNOWN_FLAG",
+  "missing_error_code": "E_MISSING_VALUE",
+  "spec": {"flags": [
+    {"name": "verbose", "short": "v", "takes_value": false},
+    {"name": "out", "short": "o", "takes_value": true},
+    {"name": "level", "short": "l", "takes_value": true}
+  ]},
+  "argv": ["-v", "--out", "dist", "-l", "3", "src", "--verbose", "extra.txt"]
+}
